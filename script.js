@@ -34,7 +34,7 @@ function confirmationArea() {
         document.getElementById('confirm-box').style.display = "block"
         const economyClass = document.getElementById('economyclass-quantity').value
         const firstClass = document.getElementById('firstclass-quantity').value
-        const confirmBox = document.getElementById('confirm-messege')
+        const confirmBox = document.getElementById('confrim-messege')
 
         if (firstClass > 0 && economyClass > 0) {
             confirmBox.innerText = firstClass + " first class & " + economyClass + " economy class ticket\n\nTotal : $" + totalPrice
